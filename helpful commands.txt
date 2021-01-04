@@ -1,0 +1,62 @@
+# Setting `Playing ` status
+await bot.change_presence(activity=discord.Game(name="a game"))
+
+# Setting `Streaming ` status
+await bot.change_presence(activity=discord.Streaming(name="My Stream", url=my_twitch_url))
+
+# Setting `Listening ` status
+await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="a song"))
+
+# Setting `Watching ` status
+await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="a movie"))
+
+Permissions
+class discord.Permissions(permissions=0, **kwargs)
+Attributes
+add_reactions
+administrator
+attach_files
+ban_members
+change_nickname
+connect
+create_instant_invite
+deafen_members
+embed_links
+external_emojis
+kick_members
+manage_channels
+manage_emojis
+manage_guild
+manage_messages
+manage_nicknames
+manage_permissions
+manage_roles
+manage_webhooks
+mention_everyone
+move_members
+mute_members
+priority_speaker
+read_message_history
+read_messages
+send_messages
+send_tts_messages
+speak
+stream
+use_external_emojis
+use_voice_activation
+value
+view_audit_log
+view_channel
+view_guild_insights
+Methods
+Permissions.all
+Permissions.all_channel
+Permissions.general
+Permissions.none
+Permissions.text
+Permissions.voice
+is_strict_subset
+is_strict_superset
+is_subset
+is_superset
+update

@@ -1,0 +1,5 @@
+v1 = basic ping, rng responses, 24/7
+v2 = cogs, clear
+v3 = kick, ban, errors
+v4 = mute, unmute
+v5 = bug fixes
