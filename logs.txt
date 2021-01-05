@@ -3,3 +3,5 @@ v2 = cogs, clear
 v3 = kick, ban, errors
 v4 = mute, unmute
 v5 = bug fixes
+v6 = shadow realm, polished mute and unmute
+v7 = bug fixes
